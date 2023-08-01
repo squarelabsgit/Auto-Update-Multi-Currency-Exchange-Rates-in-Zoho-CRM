@@ -28,12 +28,12 @@ As we cannot update the currencies using standard Zoho Deluge integration tasks,
 3. Select Zoho OAuth
 4. Enter a Connection Name e.g. "currency_connection"
 5. Select the required scopes:
-	a. ZohoCRM.settings.currencies.UPDATE
-	b. ZohoCRM.settings.currencies.READ
-6. Click Create and Connect
-7. Click Connect
-8. Select your Production System
-9. Click Accept
+   * ZohoCRM.settings.currencies.UPDATE
+   * *ZohoCRM.settings.currencies.READ
+7. Click Create and Connect
+8. Click Connect
+9. Select your Production System
+10. Click Accept
 
 ## Function
 Of course we need a function to do all the heavy lifting, It will need to:
